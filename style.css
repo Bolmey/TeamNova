@@ -132,6 +132,10 @@ a {
   .header li {
     float: right;
   }
+
+  .header .ul {
+    font-size: 25px;
+  }
   .header li a {
     padding: 20px 30px;
   }
@@ -143,10 +147,14 @@ a {
   .header .menu-icon {
     display: none;
   }
+  .header .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 25px;
+  }
 }
 
 header:not(.header) {
   background: blue;
 }
-
-@madia (min-width: 400px );
