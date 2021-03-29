@@ -7,11 +7,4 @@ icon.addEventListener('click', displayNav);
 
 const topNav = document.querySelector('.topNav');
 
-const displayNav = () => {
-    if (topNav.style.display === 'block'){
-        topNav.style.display = 'hidden';
-    }
-    else {
-        topNav.style.display = 'block';
-}
-}
+const displayNav = () => topNav.style.display === 'block' ? topNav.style.display = 'hidden' : topNav.style.display = 'block';
