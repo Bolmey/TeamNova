@@ -52,13 +52,11 @@ h1{
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
-  transition: all .2s ease-in-out;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
-  transform: scale(1.1);
 }
 
 .header .logo {
@@ -176,7 +174,44 @@ h1{
     float: right;
   }
 
-  .header .ul {
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+    transform: scale(1.15);
+  }
+
+  .middle {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .middle:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 12px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .middle:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  a.header .ul {
     font-size: 25px;
   }
   .header li a {
