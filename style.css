@@ -254,37 +254,6 @@ h1{
     background-color: #f4f4f4;
   }
 
-  .focus {
-    transition: all .3s ease-in-out;
-  }
-
-  .focus:hover {
-    transform: scale(1.1);
-  }
-
-  .middle {
-    position: relative;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .middle:after {
-    content: '';
-    position: absolute;
-    width: 95%;
-    transform: scaleX(0);
-    height: 3px;
-    bottom: 12px;
-    left: 4px;
-    background-color: black;
-    transform-origin: bottom center;
-    transition: transform 0.25s ease-out;
-  }
-
-  .middle:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom center;
-  }
-
   a.header .ul {
     font-size: 25px;
     position: relative;
@@ -386,4 +355,61 @@ form input {
   border-radius: 15px;
   border: none;
   padding: 10px;
+}
+
+.highlight {
+  animation: unhighlight 1s;
+}
+
+.highlight:hover {
+  animation: highlight 1s forwards;
+}
+
+@keyframes highlight {
+  from {
+    background-color: rgba(240, 32, 105, 0);
+  }
+  to {
+    background-color: rgba(240, 32, 105, 0.645);
+  }
+}
+
+@keyframes unhighlight {
+  from {
+    background-color: rgba(240, 32, 105, 0.645);
+  }
+  to {
+    background-color: rgba(240, 32, 105, 0);
+  }
+}
+
+.middle {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.middle:after {
+  content: '';
+  position: absolute;
+  width: 95%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 12px;
+  left: 4px;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.middle:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+.focus {
+  transition: all .3s ease-in-out;
+}
+
+.focus:hover {
+  transform: scale(1.05);
 }
