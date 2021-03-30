@@ -30,11 +30,13 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
+  transition: all .2s ease-in-out;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
+  transform: scale(1.1);
 }
 
 .header .logo {
@@ -65,7 +67,6 @@ a {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
