@@ -185,7 +185,14 @@ h1{
   .header li a:hover,
   .header .menu-btn:hover {
     background-color: #f4f4f4;
-    transform: scale(1.15);
+  }
+
+  .focus {
+    transition: all .3s ease-in-out;
+  }
+
+  .focus:hover {
+    transform: scale(1.1);
   }
 
   .middle {
@@ -202,13 +209,13 @@ h1{
     bottom: 12px;
     left: 0;
     background-color: black;
-    transform-origin: bottom right;
+    transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
 
   .middle:hover:after {
     transform: scaleX(1);
-    transform-origin: bottom left;
+    transform-origin: bottom center;
   }
 
   a.header .ul {
