@@ -2,7 +2,22 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: pink;
 }
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  
+}
+
+
 
 a {
   color: #000;
@@ -15,6 +30,13 @@ a {
   position: fixed;
   width: 100%;
   z-index: 3;
+  background-color: white;
+}
+
+h1{
+  margin-top: 11vh;
+  display: flex;
+  justify-content: center;
 }
 
 .header ul {
@@ -127,9 +149,29 @@ a {
   top: 0;
 }
 
+/*home boxes*/
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0vh;
+  
+}
+.box{
+  height: 15vh;
+  width: 30vh;
+  background-color:plum ;
+  border: solid 1px black;
+  margin-top: .5vh;
+  
+}
+.information{
+  width:200px;
+
+}
+
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media only screen and (min-width: 48em) {
   .header li {
     float: right;
   }
@@ -154,7 +196,32 @@ a {
     font-size: 50px;
     padding-top: 25px;
   }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 0vh;
+    margin: 15vh;
+
+  }
+
+  .box{
+  height: 50vh;
+  width: 50vh;
+  background-color:plum ;
+  border: solid 1px black;
+  margin-top: .5vh;
+  }
+
+  .big-box{
+    display: flex;
+    flex-direction: row;
+  }
+
+  
 }
+
 
 header:not(.header) {
   background: blue;
