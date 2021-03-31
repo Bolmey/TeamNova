@@ -9,9 +9,8 @@ body {
 
   .maincontainer{
       background-color: lightblue;
-      height:4550px;
       width: 100%;
-      margin-top: ;
+      /* margin-top: ; */
   }
 
   .container1{
@@ -363,6 +362,17 @@ body {
   
       /*desktop css*/
 
+      .maincontainer{
+        
+        
+      }
+
+      .sectionSize{
+        width: 500px;
+        height: 325px;
+
+      }
+
       .container2{
           display: flex;
           flex-direction: row;
@@ -373,6 +383,31 @@ body {
       .container2 h1{
           margin-bottom: 50px;
       }
+
+      .container3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .container4{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+      }
+  
+      .container5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+  
+      .container6{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+      }
+  
   
     
   }
