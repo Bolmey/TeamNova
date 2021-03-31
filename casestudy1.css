@@ -1,0 +1,130 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 10px;
+}
+
+header {
+    background-image: url("https://image.shutterstock.com/z/stock-vector-hexagon-technology-connect-for-web-design-abstract-modern-backdrop-creative-vector-concept-high-1871058496.jpg");
+    background-position: 0 -50px; 
+    /* width: 200px; 
+    height: 100px; */
+    object-fit: none;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+             
+}
+
+.hero-image {
+    background-image: url('https://miro.medium.com/max/2400/1*TDplo6knoXopzabAFpqEfw.jpeg');
+    background-size: cover;
+    height: 60vh;
+    width: 44vh;
+    border: black solid 3px;
+    opacity:.90;
+   
+}
+
+.hero-text {
+    display: flex;
+    align-content: column;
+    color: rgb(217, 255, 0);
+    justify-content: center;
+    font-size: 6vh;
+
+}
+
+p{
+    font-size: 2vh;
+    margin: 2vh;
+    color: darkgoldenrod;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 2vh;
+}
+
+.overview {
+    display:flex;
+    justify-items: center;
+    flex-direction: row;
+    border-right: black solid 3px;
+    
+    
+}
+
+.ovText {
+    margin: 0.5vh;
+    font-size: 1.50vh;   
+}
+    
+.sec2 {
+    display: flex;
+    width: 44vh;
+    align-content: center;
+    flex-direction: row;
+    border: black solid 3px;
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(121,9,108,0.4920343137254902) 67%); 
+}
+
+.sec2A {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2b {
+    border: 1 vh;
+    display: flex;
+    flex-direction: column;
+}
+.smallSecA {
+    border-bottom: black solid 3px;
+    height: 20vh;
+    font-size: 1vh;
+    
+   
+}
+
+.phase1 {
+    padding: 2vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vh;
+    border: black solid 3px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(57,9,121,0.4920343137254902) 67%);
+    font-size: 2vh;  
+}
+
+.phase2 {
+    padding:2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width:40vh;
+    border: black solid 3px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(121,9,31,0.4920343137254902) 67%);
+    font-size:2vh;
+}
+
+.ph1IMG {
+    width: 30vh;
+    height: 20vh;
+    border: 3px solid black;
+
+}
