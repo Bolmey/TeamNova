@@ -413,3 +413,73 @@ form input {
 .focus:hover {
   transform: scale(1.05);
 }
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115vh;
+  width: 110vw;
+  background-color: red;
+  margin: -100px -150px;
+  animation: load-fade 4s ease-in-out forwards;
+}
+
+.load img{
+  width: 10vw;
+  height: 30vh;
+  position: relative;
+  animation: take-off 1.4s ease-in-out infinite;
+}
+
+ul {
+  list-style: none;
+}
+
+@keyframes take-off {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1.0;
+    bottom: 0px;
+  }
+  20%{
+    transform: rotate(370deg);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: scaleY(0.7);
+    bottom: 0px;
+    opacity: 1;
+  }
+  70%{
+    transform: scaleY(1.1);
+    opacity: 0.6;
+  }
+  90%{
+    opacity: 0.2;
+  }
+  100%{
+    bottom: 150px;
+    opacity: 0;  
+  }
+}
+
+@keyframes load-fade {
+  0% {
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 0.9;
+    z-index: 8;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
