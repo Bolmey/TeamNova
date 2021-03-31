@@ -5,14 +5,12 @@ body {
     justify-content: center;
     justify-items: center;
     font-size: 10px;
+    margin: 0;
 }
 
 header {
-    background-image: url("https://image.shutterstock.com/z/stock-vector-hexagon-technology-connect-for-web-design-abstract-modern-backdrop-creative-vector-concept-high-1871058496.jpg");
-    background-position: 0 -50px; 
-    /* width: 200px; 
-    height: 100px; */
-    object-fit: none;
+
+    width: 100vw;
     display:flex;
     align-items:center;
     justify-items: center;
@@ -23,8 +21,7 @@ header {
     background-image: url('https://miro.medium.com/max/2400/1*TDplo6knoXopzabAFpqEfw.jpeg');
     background-size: cover;
     height: 60vh;
-    width: 44vh;
-    border: black solid 3px;
+    width: auto;
     opacity:.90;
    
 }
@@ -40,7 +37,6 @@ header {
 
 p{
     font-size: 2vh;
-    margin: 2vh;
     color: darkgoldenrod;
 }
 h1 {
@@ -57,22 +53,19 @@ h3 {
     display:flex;
     justify-items: center;
     flex-direction: row;
-    border-right: black solid 3px;
     
     
 }
 
 .ovText {
-    margin: 0.5vh;
     font-size: 1.50vh;   
 }
     
 .sec2 {
     display: flex;
-    width: 44vh;
+    width: 100vw;
     align-content: center;
     flex-direction: row;
-    border: black solid 3px;
     background: rgb(2,0,36);
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(121,9,108,0.4920343137254902) 67%); 
@@ -89,7 +82,6 @@ h3 {
     flex-direction: column;
 }
 .smallSecA {
-    border-bottom: black solid 3px;
     height: 20vh;
     font-size: 1vh;
     
@@ -97,26 +89,24 @@ h3 {
 }
 
 .phase1 {
-    padding: 2vh;
     display:flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
     height: 60vh;
-    width: 40vh;
-    border: black solid 3px;
+    width: 100vw;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(57,9,121,0.4920343137254902) 67%);
     font-size: 2vh;  
 }
 
 .phase2 {
-    padding:2vh;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     height: 60vh;
-    width:40vh;
-    border: black solid 3px;
+    width: 100vw;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(121,9,31,0.4920343137254902) 67%);
     font-size:2vh;
@@ -125,6 +115,10 @@ h3 {
 .ph1IMG {
     width: 30vh;
     height: 20vh;
-    border: 3px solid black;
 
+
+}
+
+.textblock {
+    width: 50vw;
 }
