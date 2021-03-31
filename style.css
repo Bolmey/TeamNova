@@ -11,10 +11,11 @@ a {
 /* header */
 
 .header {
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 10px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 3;
+  padding-bottom: 20px;
 }
 
 .header ul {
@@ -34,7 +35,8 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color:white;
+ 
 }
 
 .header .logo {
@@ -53,6 +55,12 @@ a {
 }
 
 /* menu */
+
+.ul {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
 
 .header .menu {
   clear: both;
