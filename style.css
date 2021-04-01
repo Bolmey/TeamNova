@@ -363,7 +363,7 @@ h1{
     height: 3px;
     bottom: 12px;
     left: 0;
-    background-color: black;
+    background-color: #ACBBC6;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
