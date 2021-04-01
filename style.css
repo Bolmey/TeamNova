@@ -399,6 +399,7 @@ h1{
   
     /*title*/
     h1{
+      width: 954px;
     margin-top: 150px;
     text-align: center;
   }
@@ -454,7 +455,14 @@ h1{
       height: 550px;
       right: 180px;
       margin-right: 50px;
-      margin-left: -20px;
+      margin-left: -200px;
+  }
+
+  .image1{
+    height: 450px;
+    width: auto;
+    margin-left: -50px;
+    margin-top: 45px;
   }
   
 
