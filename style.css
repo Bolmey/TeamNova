@@ -45,21 +45,23 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  padding-left: -10px;
   font-family: "Lora";
+  margin-left: 30px;
 }
 
 .image1{
-  height: 40vh;
-  width: 55vw;
+  height: 48vh;
+  width: 80vw;
   margin-left: -50px;
+  margin-top: 45px;
 }
 
 
 
 .mac{ 
-  height: 40vh;
-  width: 60vw;
+  height: 50vh;
+  width: 150vw;
+  margin-left: -110px;
 }
 
 .wordformat{
@@ -77,10 +79,13 @@ body {
 }
 
 
+
 .reversePhone{
   transform: scalex(-1);
-  height: 55vh;
-  width: 55vw;
+  height: 60vh;
+  width: 80vw;
+  margin-right: -50px;
+  margin-top: 70px;
 }
 
 .reverse{
@@ -155,6 +160,10 @@ a {
   width: 100%;
   z-index: 3;
   background-color: white;
+}
+
+b{
+  color:#778B99;
 }
 
 h1{
@@ -390,6 +399,7 @@ h1{
   
     /*title*/
     h1{
+      width: 954px;
     margin-top: 150px;
     text-align: center;
   }
@@ -445,7 +455,14 @@ h1{
       height: 550px;
       right: 180px;
       margin-right: 50px;
-      margin-left: -20px;
+      margin-left: -200px;
+  }
+
+  .image1{
+    height: 450px;
+    width: auto;
+    margin-left: -50px;
+    margin-top: 45px;
   }
   
 
