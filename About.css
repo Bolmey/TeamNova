@@ -128,127 +128,120 @@ body {
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
-  .hiContainer{  
-    padding-top: 60px;
-    width: 100vw;
-    height: 25rem;
-    background-color:orange;
-    border: solid 2px black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    position: relative
-    }
-    
-    .hiImg img{
-        height: 260px;
-        width: 200px;
-        display:flex;
-        margin-bottom: 50px;
+.hiContainer{  
+  padding-top: 60px;
+  width: 100vw;
+  height: 25rem;
+  background-color:orange;
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative
+  }
+  
+.hiImg img{
+  height: 30vh;
+  width: 40vw;
+  display:flex;
+}
+      
+.bioContent{
+  width: 60vw;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.book1 img{
+  height: 40vh;
+  width: 60vw;
+}
+.book2 img{ 
+  height: 40vh;
+  width: 60vw;
+}
 
-    }
-        
-    .bioContent{
-        width: 350px;
-        display: flex;
-        margin: 10px;
-        flex-direction: column;
-        font-size: large;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
+.book3 img{
+    height: 400px;
+    width: 300px
+}
 
-    }
-    .book1 img{
-        height: 400px;
-        weight: 300px
-    }
-    .book2 img{ 
-        height: 400px;
-        width: 300px;
-    }
-    
-    .book3 img{
-        height: 400px;
-        width: 300px
-    }
+.book1{
+  display: flex;
+  justify-content: center;
+    margin-bottom: 25px;
+}
 
-    .book1{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 25px;
-    }
+.book2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px
+}
 
-    .book2 {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 25px
-    }
-    .book3{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 25px
-    }
+.book3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px
+}
  
+h2{
+    text-align: center;
+}
 
-    
+.bioHeader{
+    color: rgb(5, 5, 153)
+}
 
-    h2{
-        text-align: center;
-    
-        
-    }
-
-    .bioHeader{
-        color: rgb(5, 5, 153)
-    }
-
-   
-    .quoteContainer{
-        display: flex;
-        justify-content: center;
-        color: rgb(236, 157, 9);
-    }
+.quoteContainer{
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 157, 9);
+}
 
 
-    .footer{
-        width: 100%;
-        height: 100px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: space-around; */
-        align-items: center;
-        margin-bottom: 20px;
-      }
-      .iconsPad{
-        display: flex;
-        justify-content: space-between;
-      }
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.iconsPad{
+  display: flex;
+  justify-content: space-between;
+}
       
-      .fa{
-        padding: 10px;
-        font-size: 50px;
-        text-align: center;
-        text-decoration: none;
-        /* justify-content: center; */
-      }
+.fa{
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  /* justify-content: center; */
+}
       
-      .fa-linkedin {
-        background: #007bb5;
-        color: white;
-      }
-      
-      .fa-twitter {
-        background: #55ACEE;
-        color: white;
-      }
-      
-      .fa-instagram {
-        background: #125688;
-        color: white;
-      }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
     
 
     /* .iconsPad{
@@ -258,48 +251,47 @@ body {
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
-    .header{
-        height: 83px
-    }
-    .header li {
-      float: right;
-    }
-  
-    .header .ul {
-      font-size: 25px;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: left;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-    .header .logo {
-      display: flex;
-      justify-content: center;
-      font-size: 50px;
-      padding-top: 25px;
-    }
-  
-  
+@media (min-width: 48em) {
+  .header{
+      height: 83px
+  }
+  .header li {
+    float: right;
+  }
+
+  .header .ul {
+    font-size: 25px;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: left;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  .header .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 25px;
+  }
+
+
   header:not(.header) {
     background: blue;
   }
-  
+
   img{
-      margin-top: 10vh;
-      height: 50vh;
-      width: 50vh;
+    margin-top: 10vh;
+    height: 50vh;
+    width: 50vh;
   }
 
-  
-        .hiContainer{
+  .hiContainer{
     width: 100%;
     height: 300px;
     background-color: rgb(236, 157, 9);
@@ -308,83 +300,80 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+  }
 
-    }
-
-.hiContent{
+  .hiContent{
     width:1000px;
     height:700px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    
+    align-items: center; 
 }
 
-h2{
-    text-align: center;
+  h2{
+      text-align: center;
+  }
+  .quoteContainer{
+      height: 100px;
+      display: flex;
+      align-items: flex-end;
+      font-size: 20px;
+  }
+  .book1 img{
+      height: 350px;
+      width: 300px
+  }
 
-}
-.quoteContainer{
-    height: 100px;
-    display: flex;
-    align-items: flex-end;
-    font-size: 20px;
-}
-.book1 img{
-    height: 350px;
-    width: 300px
-}
+  .book2 img{ 
+      height: 350px;
+      width: 300px;
+  }
 
-.book2 img{ 
-    height: 350px;
-    width: 300px;
-}
+  .book3 img{
+      height: 350px;
+      width: 300px
+  }
 
-.book3 img{
-    height: 350px;
-    width: 300px
-}
+  .books{
+      display: flex;
+      justify-content: space-between;
+  }
 
-.books{
-    display: flex;
-    justify-content: space-between;
-}
-
-.bioContainer{
-    width: 1190px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.bioContent{
-    width: 1000px;
-    justify-content: center;
-    align-items: center;
-}
+  .bioContainer{
+      width: 1190px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .bioContent{
+      width: 1000px;
+      justify-content: center;
+      align-items: center;
+  }
 
 
-.mediaContainer{
-    width: 1190px;
-    height: 600px;
-    display: flex;
-    padding-top: 50px;
-    /* /* justify-content: center; */
-    flex-direction: column; 
-    align-items: center
-}
-.mediaHeader{
-    width:1190px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  .mediaContainer{
+      width: 1190px;
+      height: 600px;
+      display: flex;
+      padding-top: 50px;
+      /* /* justify-content: center; */
+      flex-direction: column; 
+      align-items: center
+  }
+  .mediaHeader{
+      width:1190px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 
-.books{
-    display: flex;
-    justify-content: center;
-}
+  .books{
+      display: flex;
+      justify-content: center;
+  }
  .footer{
     width: 100%;
     height: 100px;
@@ -421,5 +410,5 @@ h2{
     background: #125688;
     color: white;
   }
-  }
+}
 /* end of media */
