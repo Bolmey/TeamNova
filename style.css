@@ -20,63 +20,82 @@ body {
   width: 100%;
   background-color: gray;
   /* border: black solid 2px; */
-  margin: 30px 0 0 0;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   overflow: hidden;
   
+}
+
+.box1{
+  background-color:rgba(172, 187, 198, 1);
+}
+
+.compButton{
+  color: white;
 }
 
 .boxcomp{
   height: 350px;
   width: 100%;
-  margin-top:30px ;
-  background-color: gray;
+  background-color: rgba(47, 61, 71, 1);
   display: flex;
-  flex-direction: row;
   align-items: center;
   overflow: hidden;
-  
-  
 
 }
 
 .wordformatComp{
+  color: white;
   display: flex;
   flex-direction: column;
-  margin: 30px;
-  
+  margin-left: 20px;
+  font-family: "Lora";
 }
 
-.phone{
-  height: 250px;
-  margin: 0 15px 0 15px;
-  
+.image1{
+  height: 400px;
+  width: 250px;
+  margin-left: -50px;
 }
 
-.mac{
-  height: 200px;
+
+
+.mac{ 
+  height: 500px;
   position: relative;
-  left: 50px;
+  right: 180px;
+  margin-right: 50px;
+  margin-left: -20px;
   
 }
 
 .wordformat{
   display: flex;
   flex-direction: column;
-  margin: 30px;
-
+  margin: 30px 0 0 25px;
+  font-family: "Lora";
 }
 
+.wordformatPhone{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 17px 0 0px;
+  font-family: "Lora";
+}
+
+
 .reversePhone{
-  margin-left: 15px;
+  margin-right: -65px;
+  margin-top: 80px;
+  transform: scalex(-1);
+  height: 500px
 }
 
 .reverse{
   display:flex;
   flex-direction: row-reverse;
+  background-color:rgba(119, 139, 153, 1);
 }
 
 p{
@@ -84,8 +103,8 @@ p{
 }
 
 .button{
-  height: 32px;
-  width: 119px;
+  height: 52px;
+  width: 159px;
 }
 
 footer{
@@ -156,6 +175,7 @@ h1{
   font-size: 24px;
   font-family: 'Lora';
   font-weight:lighter;
+  display: inline-block;
 }
 
 .header ul {
@@ -564,11 +584,12 @@ ul {
 }
 
 button{
-  border-radius: 25px;
-  border: none;
-  background-color: #F5B02D;
+  border-radius: 10px;
+  background-color:transparent;
   font-weight: 550;
   transition: 0.3s ease-in-out;
+  border:3px solid #F0C674;
+  
 }
 
 button:hover{
