@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   font-family: Helvetica, sans-serif;
   background-size: cover;
   background-color: white;
@@ -9,13 +8,19 @@ body {
 
 .maincontainer{
     background-color: lightblue;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .container1{
     width: 100%;
     height: 400px;
     background-color: lightcoral;
+    background: url(./resources/case-study-hero-img.png);
+    justify-self: center;
 }
 
 .container2{
@@ -148,16 +153,19 @@ a {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  border-radius: 10px;
 }
 
 /* header */
@@ -392,7 +400,6 @@ a {
     }
 
     .container3{
-      height: ;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -400,7 +407,6 @@ a {
     }
 
     .container4{
-      height: ;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -408,7 +414,6 @@ a {
     }
 
     .container5{
-      height: ;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -416,7 +421,7 @@ a {
     }
 
     .container6{
-      height: ;
+      
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -426,9 +431,6 @@ a {
   
 }
 
-header:not(.header) {
-  background: blue;
-}
 
 .highlight {
   animation: unhighlight 1s;
@@ -438,14 +440,12 @@ header:not(.header) {
   animation: highlight 1s forwards;
 }
 
-/*Animations*/
-
 @keyframes highlight {
   from {
     background-color: rgba(240, 32, 105, 0);
   }
   to {
-    background-color: rgba(240, 32, 105, 0.645);
+    background-color: rgba(240, 32, 105, 0.727);
   }
 }
 
@@ -483,10 +483,12 @@ header:not(.header) {
 
 .focus {
   transition: all .3s ease-in-out;
+  opacity: 0.85;
 }
 
 .focus:hover {
   transform: scale(1.05);
+  opacity: 1;
 }
 
 .fade {
@@ -514,13 +516,88 @@ header:not(.header) {
   to{
     opacity: 0;
   }
+}
 
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: darkgrey;
+  animation: load-fade 4s ease-in-out forwards;
+  position: fixed;
+  z-index: 8;
+  top: 0;
+}
 
+#rocket{
+  width: 5vw;
+  height: 10vh;
+  position: relative;
+  animation: take-off 1.4s ease-in-out infinite;
+}
 
+ul {
+  list-style: none;
+}
 
+@keyframes take-off {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1.0;
+    bottom: 0px;
+  }
+  20%{
+    transform: rotate(370deg);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: scaleY(0.7);
+    bottom: 0px;
+    opacity: 1;
+  }
+  70%{
+    transform: scaleY(1.1);
+    opacity: 0.6;
+  }
+  90%{
+    opacity: 0.2;
+  }
+  100%{
+    bottom: 150px;
+    opacity: 0;  
+  }
+}
 
-  /*desktop view*/
-  
+@keyframes load-fade {
+  0% {
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 0.99;
+    z-index: 8;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -3;
+  }
+}
 
+button{
+  border-radius: 25px;
+  border: none;
+  background-color: #F5B02D;
+  font-weight: 550;
+  transition: 0.3s ease-in-out;
+}
 
-}   
+button:hover{
+  transform: scale(1.1);
+}
