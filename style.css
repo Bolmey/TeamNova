@@ -633,8 +633,6 @@ button:hover{
   background-color: #F0C674;
   color: white;
   border: 1px solid white;
-<<<<<<< HEAD
-=======
   cursor: pointer;
 }
 
@@ -657,5 +655,4 @@ button:after {
 
 button:hover::after {
   width: 100%;
->>>>>>> 14453ac8da1f3ecb9ac8d822e7009daddc79d61e
 }
