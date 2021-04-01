@@ -268,14 +268,6 @@ h2{
   color: white;
   border-radius: 10px;
 }
-    
-
-    /* .iconsPad{
-        display: flex;
-        justify-content: space-around;
-    } */
-  
-  /* 48em = 768px */
   
 @media (min-width: 480px) {
   html > *{
@@ -403,8 +395,7 @@ h2{
     width: 70vw;
     justify-content: center;
     align-items: center;
-}
-
+  }
 
   .mediaContainer{
    width: 100vw;
