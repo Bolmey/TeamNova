@@ -103,9 +103,11 @@ p{
   width: 159px;
 }
 
+
+
 footer{
   width: 100%;
-  height: 110px;
+  height: 120px;
   background-color: #2F3D47;
   display: flex;
   justify-content: center;
@@ -123,33 +125,9 @@ a {
 .iconsPad{
   display: flex;
   justify-content: space-evenly;
+  height: 32px;
 }
 
-.fa{
-  padding: 10px;
-  font-size: 50px;
- 
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  border-radius: 10px;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-  border-radius: 10px;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-  border-radius: 10px;
-}
 
 /* header */
 
@@ -477,6 +455,12 @@ h1{
     height: 380px;
     width: 500px;
     border-radius: 20px;
+  }
+
+  footer h2{
+    font-family: "roboto";
+    text-align: center;
+    color:#ACBBC6;
   }
 
 
