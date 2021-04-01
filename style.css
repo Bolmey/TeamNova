@@ -121,16 +121,19 @@ a {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  border-radius: 10px;
 }
 
 /* header */

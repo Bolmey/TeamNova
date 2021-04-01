@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   font-family: Helvetica, sans-serif;
   background-size: cover;
   background-color: white;
@@ -9,8 +8,8 @@ body {
 
 .maincontainer{
     background-color: lightblue;
-
 }
+
 
 .container1{
     width: 100%;
@@ -148,16 +147,19 @@ a {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  border-radius: 10px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  border-radius: 10px;
 }
 
 /* header */
