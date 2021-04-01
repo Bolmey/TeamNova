@@ -17,7 +17,7 @@ body {
 
 .box{
   height: 350px;
-  width: 100%;
+  width: 100vw;
   background-color: gray;
   /* border: black solid 2px; */
   display: flex;
@@ -34,7 +34,7 @@ body {
 
 .boxcomp{
   height: 350px;
-  width: 100%;
+  width: 100vw;
   background-color: rgba(47, 61, 71, 1);
   display: flex;
   align-items: center;
@@ -45,21 +45,21 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  padding-left: -10px;
   font-family: "Lora";
 }
 
 .image1{
-  height: 400px;
-  width: 250px;
+  height: 40vh;
+  width: 55vw;
   margin-left: -50px;
 }
 
 
 
 .mac{ 
-  height: 500px;
-  margin-right: 35px;
+  height: 40vh;
+  width: 60vw;
 }
 
 .wordformat{
@@ -78,10 +78,9 @@ body {
 
 
 .reversePhone{
-  margin-right: -65px;
-  margin-top: 80px;
   transform: scalex(-1);
-  height: 500px
+  height: 55vh;
+  width: 55vw;
 }
 
 .reverse{
@@ -294,11 +293,28 @@ h1{
 
 /* 48em = 768px */
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 500px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .container{
-    width: 1366px;
+    width: 100vw;
     height: 904px;
     background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .top{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
   }
 
   .header li {
@@ -388,15 +404,6 @@ h1{
 
   /*Boxes*/
 
-  .container{
-    background: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-  }
-
   .box{
     margin-top: 60px;
     height: 380px;
@@ -405,6 +412,7 @@ h1{
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    margin: 0 35px;
   }
 
   .wordformat{
