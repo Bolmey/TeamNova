@@ -189,7 +189,6 @@ h1{
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
@@ -313,7 +312,6 @@ h1{
   .container{
     width: 100vw;
     height: 904px;
-    background-color: tomato;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -334,14 +332,14 @@ h1{
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
     transition: all .2s ease-in-out;
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: #2F3D47;
   }
 
   .focus {
@@ -519,6 +517,7 @@ header:not(.header) {
 .middle {
   position: relative;
   transition: all 0.3s ease-in-out;
+  ;
 }
 
 .middle:after {
@@ -529,7 +528,7 @@ header:not(.header) {
   height: 3px;
   bottom: 12px;
   left: 4px;
-  background-color: black;
+  background-color: #ACBBC6;
   transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
