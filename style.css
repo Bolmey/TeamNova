@@ -115,7 +115,7 @@ footer{
 
 
 a {
-  color: #000;
+  color: #DBA757;
 }
 
 /*Social media Icons*/
@@ -159,7 +159,7 @@ a {
   top: 0;
   width: 100%;
   z-index: 3;
-  background-color: white;
+  background-color: #2F3D47;
 }
 
 b{
@@ -182,7 +182,7 @@ h1{
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #2F3D47;
   font-size: 20px;
 }
 
@@ -200,6 +200,7 @@ h1{
 }
 
 .header .logo {
+  color:#DBA757 ;
   display: block;
   float: left;
   font-size: 2em;
