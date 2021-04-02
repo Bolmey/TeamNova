@@ -382,6 +382,9 @@ footer{
     position: relative;
     
   }
+.bioContainer h2{
+  text-align: left;
+}
 
   .hiContainer{
     width: 100vw;
@@ -463,20 +466,21 @@ footer{
   .bioContainer{
     margin: 0;
     padding: 5% 0;
-    width: 100vh;
+    width: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: rgb(77, 75, 75);
     background-color: white;
+    text-align: left;
   }
-  .bioContent{
+  /* .bioContent{
     padding: 5%;
     width: 70vw;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
 
   .mediaContainer{
