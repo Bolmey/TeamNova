@@ -424,6 +424,7 @@ h1{
   .reverse{
     display: flex;
     flex-direction: row;
+    z-index: 0;
   }
 
   .wordformatComp{
