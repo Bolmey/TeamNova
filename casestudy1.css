@@ -1,9 +1,19 @@
+html {
+  background-color: #F5F5F5;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
   background-size: cover;
-  background-color: white;
+  background-color: #F5F5F5;
+}
+
+h1,h2,h3,h4 {
+  font-size: 4rem;
+  font-family: 'Lora';
+  font-weight: 600;
 }
 
 .maincontainer{
@@ -28,19 +38,24 @@ body {
 
 .container2{
   width: 100vw;
-  background-color: white;
+  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#smallboy{
+#smallboy h2, #smallboy h3, #smallboy h4{
+  font-size: 2.25rem;
   padding-right: 50px;
+  color: #2F3D47;
+}
+
+.textBox {
+  padding: 0 5%;
 }
 
 .bigboy{
-  height: 158px;
-  width: 300px;
+  font-size: 2.25rem;
   text-align: left;
   margin-top: 10px;
 }
@@ -54,13 +69,11 @@ p{
   text-align: left ;
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 250px;
 }
 
 h1{
   text-align: left;
   margin-top: 20px;
-  
 }
 
 h2{
@@ -76,10 +89,11 @@ h2{
 
 .container3{
   width: 100vw;
-  background-color: rgba(70, 86, 101, 1);
+  background-color: #2F3D47;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #F5F5F5;
 }
 
 .container4{
@@ -112,7 +126,7 @@ h2{
 /*Place Holder for No picture*/
 .holder{
   background-color: black;
-  width: 327px;
+  width: 30vw;
   margin-top: 15px;
 }
 
@@ -171,7 +185,7 @@ a {
   width: 100%;
   z-index: 3;
   background-color: #2F3D47;
-  color: #F0C674;
+  color: #F5F5F5;
 }
 
 
@@ -181,7 +195,8 @@ a {
   overflow: hidden;
   background-color: #2F3D47;
   font-size: 20px;
-  color: #F0C674;
+  color: #F5F5F5;
+  font-family: 'Lora' !important;
 }
 
 .header li a {
@@ -189,7 +204,7 @@ a {
   padding: 20px 20px;
   border-right: 1px solid #2F3D47;
   text-decoration: none;
-  color: #F0C674;
+  color: #F5F5F5;
 }
 
 .header li a:hover,
@@ -210,7 +225,11 @@ a {
   font-size: 15px;
   display: flex;
   align-self: center;
-  color: #F0C674;
+  color: #F5F5F5;
+}
+
+.header a{
+  font-family: 'Lora';
 }
 
 /* menu */
@@ -398,7 +417,7 @@ a {
   .container3{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
     }
 
