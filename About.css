@@ -10,32 +10,35 @@ body {
 }
   
 a {
-  color: #000;
+  color: #DBA757;
 }
+
 
 /* header */
 
 .header {
   box-shadow: 1px 1px 4px 0 rgba(4, 7, 160, 0.1);
   position: fixed;
+  top:0;
   width: 100vw;
-  height: 4rem;
   z-index: 3;
-  background-color: rgb(255, 255, 255);
+  background-color: #2F3D47;
 }
-  
-.header ol {
+b{
+  color:#778B99;
+}
+
+.header ul {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: #2F3D47;
   font-size: 20px;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
@@ -45,6 +48,7 @@ a {
 }
   
 .header .logo {
+  color:#DBA757 ;
   display: block;
   float: left;
   font-size: 2em;
@@ -52,6 +56,7 @@ a {
   text-decoration: none;
   position: absolute;
 }
+
   
 .logo {
   font-size: 15px;
@@ -69,21 +74,26 @@ a {
   
 /* menu icon */
   
-.header {
+/* .header {
   box-shadow: 1px 10px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   width: 100vw;
   z-index: 3;
   background-color: white;
-}
+} */
 
-.header ul {
+/* .header ul {
   padding: 0;
   list-style: none;
   overflow: hidden;
   background-color: #fff;
   font-size: 20px;
+} */
+.ul {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
 }
 
 .header .menu-icon {
@@ -93,6 +103,22 @@ a {
   position: relative;
   user-select: none;
 }
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 30px 20px 0 20px;
+  position: relative;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
 
 .header .menu-icon .navicon {
   background: #333;
@@ -341,6 +367,7 @@ h4{
     display: flex;
     align-items: flex-start;
     position: relative;
+    
   }
 
   .hiContainer{
@@ -474,9 +501,11 @@ h4{
  }
 
   .iconsPad{
+    width: 100vw;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
   }
   
   .fa{
