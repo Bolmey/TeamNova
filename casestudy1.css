@@ -345,6 +345,10 @@ a {
     transition: all 0.3s ease-in-out;
   }
 
+  #smallboy{
+    font-size: 1.5rem;
+  }
+
   .middle:after {
     content: '';
     position: absolute;
