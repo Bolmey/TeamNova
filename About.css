@@ -22,7 +22,7 @@ body {
   background-color: #2F3D47;
 }
 a {
-  color: #DBA757;
+  color: #F5F5F5;
 }
 
 b{
@@ -49,7 +49,7 @@ b{
 }
   
 .header .logo {
-  color: white ;
+  color: #F5F5F5 ;
   display: block;
   float: left;
   font-size: 2em;
@@ -263,7 +263,7 @@ h2{
 .quoteContainer{
   display: flex;
   justify-content: center;
-  color: white;
+  color: F5F5F5;
   background-color:#778B99 ;
   width: 100vh
 }
@@ -368,7 +368,6 @@ footer{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-top: 25px;
   }
 
   header:not(.header) {
@@ -377,20 +376,20 @@ footer{
 
   .hiImg {
     margin: 0%;
-   height:40vw;
+    height:40vw;
     width: 25vw;
     display: flex;
     align-items: flex-start;
     position: relative;
     
   }
-.bioHeader h2{
-  text-align: left;
-  font-size: 3vw;
-}
-.bioHeader{
-  margin-right: -25%;
-}
+  .bioHeader h2{
+    text-align: left;
+    font-size: 3vw;
+  }
+  .bioHeader{
+    margin-right: -25%;
+  }
 
   .hiContainer{
     width: 100vw;
@@ -431,7 +430,7 @@ footer{
 
   h3{
     font-size: 35px;
-    color: white;
+    color: #F5F5F5;
     font-size: 50px;
   }
 
@@ -515,19 +514,19 @@ footer{
 
   .fa-linkedin {
     background: #007bb5;
-    color: white;
+    color: #F5F5F5;
     border-radius: 10px;
   }
   
   .fa-twitter {
     background: #55ACEE;
-    color: white;
+    color: #F5F5F5;
     border-radius: 10px;
   }
   
   .fa-instagram {
     background: #125688;
-    color: white;
+    color: #F5F5F5;
     border-radius: 10px;
   }
 
