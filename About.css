@@ -382,8 +382,12 @@ footer{
     position: relative;
     
   }
-.bioContainer h2{
+.bioHeader h2{
   text-align: left;
+  font-size: 3vw;
+}
+.bioHeader{
+  margin-right: -25%;
 }
 
   .hiContainer{
