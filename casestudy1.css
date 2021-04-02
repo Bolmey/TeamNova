@@ -6,67 +6,54 @@ body {
   background-color: white;
 }
 
-.topcontainer {
-    background-color: lightblue;;
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 50vh;
+.maincontainer{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.hero {
-  /* margin: auto; */
+
+.container1{
   width: 100%;
-  /* height: auto; */
-  object-position: center;
+  /* height: 400px; */
+  background-color: lightcoral;
+  background: url(./resources/case-study-hero-img.png);
+  justify-self: center;
 }
+
 .container2{
-  align-items: center;
-  margin-left: 2vh;
-  width: 100vw;
-  height: 100vh;
-  background-color:white;
+  width: 100%;
+  /* height: 550px; */
+  background-color: white;
   display: flex;
   flex-direction: column;
-  font-size: 2vh;
-  position: relative;
+  align-items: center;
+  /* margin-bottom: 60%; */
 }
 
 #smallboy{
-  display: flex;
-  justify-content: center;
-  /* padding-right: 50px; */
-  flex-direction: column;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  height: 100vh;
+  padding-right: 50px;
 }
 
-.tinyboy {
-  display: flex;
-  flex-direction: column;
-  height: 20vh;
-  margin-top: 5vh;
-}
-
-.bigboy{  
-    height: 20vh;
-    width: 300px;
-    text-align: left;
-    /* margin-top: 10px; */
+.bigboy{
+  height: 158px;
+  width: 300px;
+  text-align: left;
+  margin-top: 10px;
 }
 
 #makeSmall{
-  display: flex;
-    /* margin-bottom: 10px; */
-    margin: 2vh 2vw;
+  margin-bottom: 10px;
+  height: 30px;
 }
 
 p{
   text-align: left ;
   margin-top: 10px;
   margin-bottom: 20px;
-  height: 50px;
+  /* height: 50px; */
   width: 250px;
 }
 
@@ -82,73 +69,66 @@ h2{
   margin-bottom: 10px;
 }
 
+.Nmiddle div {
+  z-index: 1;
+}
 
 
-.container3 {
-  position: relative;
+.container3{
   width: 100vw;
-  height: 100vh;
+  /* height: 550px; */
   background-color: rgba(70, 86, 101, 1) ;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2vh;
 }
 
 .container4{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  /* height: 550px; */
   background-color: rgba(245, 243, 243, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2vh;
 }
 
 .container5{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  /* height: 580px; */
   background-color: rgba(222, 227, 232, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2vh;
   
 }
 
 .container6{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  /* height: 550px; */
   background-color: rgba(245, 243, 243, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2vh;
+  padding-bottom: 85px;
 }
 
 
 /*Place Holder for No picture*/
 .holder{
-    background-color: black;
-    width: 327px;
-    height: 297px;
-    margin-top: 15px;
+  background-color: black;
+  width: 327px;
+  /* height: 297px; */
+  margin-top: 15px;
 }
 
-
-
-
 footer{
-  height: 1vh;
-  width: 100vw;
+  width: 100%;
+  height: 20vh;
   background-color: white;
   display: flex;
   justify-content: center;
-  /* margin-bottom: 20px; */
-  position: absolute;
+  margin-bottom: 20px;
 }
-
-
 
 a {
   color: #000;
@@ -195,7 +175,7 @@ a {
   top: 0;
   width: 100%;
   z-index: 3;
-  background: #2F3D47;
+  background-color: white;
 }
 
 
@@ -220,7 +200,6 @@ a {
 }
 
 .header .logo {
-  color: white;
   display: block;
   float: left;
   font-size: 2em;
@@ -257,7 +236,7 @@ a {
 }
 
 .header .menu-icon .navicon {
-  background: #F5B02D;
+  background: #333;
   display: block;
   height: 2px;
   position: relative;
@@ -267,7 +246,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background:#F5B02D;
+  background: #333;
   content: "";
   display: block;
   height: 100%;
@@ -313,6 +292,8 @@ a {
 
 
 
+
+
 /* 48em = 768px */
 
 @media only screen and (min-width: 48em) {
@@ -320,9 +301,6 @@ a {
     float: right;
   }
 
-  .heroimage {
-    margin-top: 10em;
-  }
   .header li a {
     display: block;
     padding: 20px 20px;
@@ -389,59 +367,69 @@ a {
   }
 
     /*desktop css*/
-    .headerSize{
-      font-size: 54px;
+  .headerSize{
+    font-size: 54px;
+  }
+
+  .pSize{
+    width: 600px;
+    /* height: 258px; */
+    font-size: 24px;
+  }
+
+  .text-contain {
+    z-index: 1;
+  }
+
+  .height{
+    height: 500px;
+  }
+
+  .container1{
+    height: 731px;
+  }
+
+  .container2{
+    height: 710px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  .container2 h1{
+    margin-bottom: 50px;
     }
 
-    .pSize{
-      width: 100%;
-      height: 100%;
-      font-size: 2vh;
-    }
-    .topcontainer {
-      height: 80vh;
+  .container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
     }
 
-    .container2 {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        justify-items: center;
-    }
+  .container4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+  }
 
-    /* .container2 h1{
-        margin-bottom: 50px;
-    } */
+  .container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
 
-    .container3{
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
-
-    .container4{
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-around;
-      
-    }
-
-    .container5{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      
-    }
-
-    .container6{
-      
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-around;
-      
-    }
+  .container6{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+  }
 
   
 }
@@ -617,30 +605,24 @@ button:hover{
   transform: scale(1.1);
 }
 
-/* .ani {
+.ani {
   position: relative;
   overflow: hidden;
   transition: 1s all ease;
-} */
+}
 
-/*.ani::before {
+.ani::before {
   content: '';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #F0C674;
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   height: 0%;
   transition: all 0.6s ease;
   overflow: hidden;
-}
-
- .Nmiddle{
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
 
 .ani:hover {
@@ -649,4 +631,4 @@ button:hover{
 .ani:hover::before {
   height: 100%;
   overflow: hidden;
-}*/
+}
