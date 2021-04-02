@@ -261,7 +261,7 @@ h2{
 .quoteContainer{
   display: flex;
   justify-content: center;
-  color: orange;
+  color: white;
   background-color:#778B99 ;
   width: 100vh
 }
@@ -563,7 +563,7 @@ footer{
     color: white;
     border-radius: 10px;
   }
-}
+
 
 
 .highlight {
