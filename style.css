@@ -248,14 +248,17 @@ h1{
   position: absolute;
   transition: all 0.2s ease-out;
   width: 100%;
+  /* margin: 2px 0 2px 0; */
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  margin-top: -10px;
+  /* top: 5px; */
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  margin-top:10px ;
+  /* top: -5px; */
 }
 
 /* menu btn */
@@ -285,7 +288,10 @@ h1{
   top: 0;
 }
 
-
+.header .menu-btn:checked ~ .menu-icon .navicon:before,
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  margin-top: 0;
+}
 
 
 
