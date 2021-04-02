@@ -49,6 +49,11 @@ body {
   z-index: 1;
 }
 
+.resume{
+  width: 100vw;
+  height: 60vh;
+}
+
 .wordformatComp{
   color: #F5F5F5;
   display: flex;
@@ -506,7 +511,10 @@ h1{
     position: relative;
     animation: take-off 1.4s ease-in-out infinite;
   }
-
+  .resume{
+    width: 60vw;
+    height: 100vh;
+  }
 }
   
   
@@ -698,9 +706,4 @@ button:after {
 
 button:hover::after {
   width: 100%;
-}
-
-.resume{
-  width: 100vw;
-  height: 60vh;
 }
