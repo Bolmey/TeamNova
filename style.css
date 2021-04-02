@@ -121,6 +121,12 @@ p{
 }
 
 
+.sizeIMG{
+  height: 45px;
+  width: 45px;
+  padding-bottom: 15px;
+}
+
 
 footer{
   width: 100%;
