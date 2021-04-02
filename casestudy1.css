@@ -6,21 +6,12 @@ body {
   background-color: white;
 }
 
-<<<<<<< HEAD
-.topcontainer {
-    background-color: lightblue;;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 50vh;
-=======
 .maincontainer{
   background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
->>>>>>> fa274ee7b2a361bea10a9e548445ef3b61b3e09d
 }
 
 .hero {
