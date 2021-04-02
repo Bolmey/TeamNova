@@ -158,6 +158,9 @@ a {
 
 /* header */
 
+.header a {
+  font-family: 'Lora';
+}
 .header {
   box-shadow: 1px 10px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
