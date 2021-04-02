@@ -136,11 +136,33 @@ h2{
 
 footer{
   width: 100vw;
-  height: 20vh;
-  background-color: white;
+  background-color: #2F3D47;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  color:whitesmoke;
+  font-size: 1vh;
+}
+
+footer h2{
+  font-family: "roboto";
+  text-align: center;
+  color:#ACBBC6;
+  font-size: 2vh;
+}
+.footerFamily {
+  font-size: .5vh;
+}
+.iconsPad{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sizeIMG{
+  height: 45px;
+  width: 45px;
+  padding-bottom: 15px;
 }
 
 a {
