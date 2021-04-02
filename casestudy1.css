@@ -623,7 +623,7 @@ button:hover{
   transition: 1s all ease;
 } */
 
-.ani::before {
+/*.ani::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -637,11 +637,11 @@ button:hover{
   overflow: hidden;
 }
 
-/* .Nmiddle{
+ .Nmiddle{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-} */
+}
 
 .ani:hover {
   color: white
@@ -649,4 +649,4 @@ button:hover{
 .ani:hover::before {
   height: 100%;
   overflow: hidden;
-}
+}*/
