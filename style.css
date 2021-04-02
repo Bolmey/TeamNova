@@ -204,6 +204,7 @@ h1{
 
 /* menu */
 
+
 .ul {
   display: flex;
   align-items: center;
@@ -230,17 +231,17 @@ h1{
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #F0C674;
   display: block;
   height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
+  width: 40px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #F0C674;
   content: "";
   display: block;
   height: 100%;
