@@ -9,9 +9,6 @@ body {
   justify-content: center;
 }
   
-a {
-  color: #DBA757;
-}
 
 
 /* header */
@@ -24,6 +21,10 @@ a {
   z-index: 3;
   background-color: #2F3D47;
 }
+a {
+  color: #DBA757;
+}
+
 b{
   color:#778B99;
 }
@@ -48,13 +49,14 @@ b{
 }
   
 .header .logo {
-  color:#DBA757 ;
+  color: white ;
   display: block;
   float: left;
   font-size: 2em;
   padding: 15px 20px;
   text-decoration: none;
   position: absolute;
+  font-family: Lora;
 }
 
   
@@ -382,8 +384,12 @@ footer{
     position: relative;
     
   }
-.bioContainer h2{
+.bioHeader h2{
   text-align: left;
+  font-size: 3vw;
+}
+.bioHeader{
+  margin-right: -25%;
 }
 
   .hiContainer{
@@ -505,49 +511,6 @@ footer{
   .books{
     display: flex;
     justify-content: center;
-  }
-
-  
- }
-
-
-  /* .fa{
-    padding: 10px;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-   */
-  /* .footer {
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px; */
-    /* position: relative; */ */
-    /* align-items: center;
-    flex-direction: column;
-  }
-
-  footer h2{
-    font-family: "roboto";
-    text-align: center;
-    color: black;
-  }
-
-    /* position: relative;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-    bottom: -80%;
-    margin-top: 12%;
-    padding-bottom: 5%;
-  } */
-
-  /* footer h2{
-    font-family: "roboto";
-    text-align: center;
-    color:#ACBBC6; */
   }
 
   .fa-linkedin {
@@ -737,5 +700,7 @@ button{
 }
 
 button:hover{
-  transform: scale(1.1);
+  transform: scale(1.1)
+}
+
 }
