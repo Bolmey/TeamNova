@@ -21,8 +21,10 @@ body {
   object-position: center;
 }
 .container2{
+  align-items: center;
+  margin-left: 2vh;
   width: 100vw;
-  height: 60vh;
+  height: 100vh;
   background-color:white;
   display: flex;
   flex-direction: column;
@@ -31,7 +33,20 @@ body {
 }
 
 #smallboy{
-    padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  /* padding-right: 50px; */
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  height: 100vh;
+}
+
+.tinyboy {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  margin-top: 5vh;
 }
 
 .bigboy{  
@@ -42,7 +57,9 @@ body {
 }
 
 #makeSmall{
-    margin-bottom: 10px;
+  display: flex;
+    /* margin-bottom: 10px; */
+    margin: 2vh 2vw;
 }
 
 p{
