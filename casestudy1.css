@@ -365,7 +365,7 @@ a {
     height: 3px;
     bottom: 12px;
     left: 0;
-    background-color: black;
+    background-color: #F5F5F5;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
@@ -498,7 +498,7 @@ a {
   height: 3px;
   bottom: 12px;
   left: 4px;
-  background-color: black;
+  background-color: #F5F5F5;
   transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
