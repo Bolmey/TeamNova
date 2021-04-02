@@ -22,6 +22,11 @@ body {
   background-color: #2F3D47;
   padding-bottom: 15px;
 }
+
+.header a {
+  font-family: 'Lora';
+}
+
 a {
   color: #F5F5F5;
 }
