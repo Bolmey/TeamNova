@@ -20,6 +20,7 @@ body {
   width: 100vw;
   z-index: 3;
   background-color: #2F3D47;
+  padding-bottom: 15px;
 }
 a {
   color: #F5F5F5;
@@ -123,7 +124,7 @@ b{
 
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #F5F5F5;
   display: block;
   height: 2px;
   position: relative;
@@ -133,7 +134,7 @@ b{
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #F5F5F5;
   content: "";
   display: block;
   height: 100%;
@@ -263,7 +264,7 @@ h2{
 .quoteContainer{
   display: flex;
   justify-content: center;
-  color: F5F5F5;
+  color: #F5F5F5;
   background-color:#778B99 ;
   width: 100vh
 }
