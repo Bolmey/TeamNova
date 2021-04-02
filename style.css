@@ -140,9 +140,8 @@ a {
 /*Social media Icons*/
 
 .iconsPad{
-  display: flex;
+  display: inline;
   justify-content: space-between;
-  height: 32px;
 }
 
 
