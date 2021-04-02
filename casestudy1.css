@@ -28,13 +28,13 @@ h1,h2,h3,h4 {
   width: 100vw;
 }
 
-.topcontainer{
+/* .topcontainer{
   width: 100vw;
   background-color: lightcoral;
   justify-self: center;
   padding-top: 6vh;
   margin-bottom: -2%;
-}
+} */
 
 .container2{
   width: 100vw;
