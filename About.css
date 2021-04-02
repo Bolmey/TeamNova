@@ -250,6 +250,8 @@ b{
  
 h2{
     text-align: center;
+    margin-top: 0;
+    font-family: Lora;
 }
 
 .bioHeader{
@@ -373,7 +375,7 @@ footer{
 
   .hiImg {
     margin: 0%;
-   height:35vw;
+   height:40vw;
     width: 25vw;
     display: flex;
     align-items: flex-start;

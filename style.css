@@ -579,7 +579,7 @@ header:not(.header) {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: darkgrey;
+  background-color: #232A3C;
   animation: load-fade 4s ease-in-out forwards;
   position: fixed;
   z-index: 8;
