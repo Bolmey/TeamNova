@@ -15,36 +15,51 @@ body {
 }
 
 .hero {
-  margin: auto;
+  /* margin: auto; */
   width: 100%;
   /* height: auto; */
   object-position: center;
 }
 .container2{
+  align-items: center;
+  margin-left: 2vh;
   width: 100vw;
-  height: 140vh;
+  height: 100vh;
   background-color:white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 2vh;
   position: relative;
 }
 
 #smallboy{
-    padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  /* padding-right: 50px; */
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  height: 100vh;
+}
+
+.tinyboy {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  margin-top: 5vh;
 }
 
 .bigboy{  
     height: 20vh;
     width: 300px;
     text-align: left;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 #makeSmall{
-    margin-bottom: 10px;
-    height: 10vh;
+  display: flex;
+    /* margin-bottom: 10px; */
+    margin: 2vh 2vw;
 }
 
 p{
@@ -384,18 +399,15 @@ a {
       font-size: 2vh;
     }
     .topcontainer {
-      height: 100vh;
+      height: 80vh;
     }
 
-    .container2{
-        height: 95%;
+    .container2 {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
-        /* margin-bottom: 5%; */
-        position: relative;
+        justify-items: center;
     }
 
     /* .container2 h1{
@@ -605,11 +617,11 @@ button:hover{
   transform: scale(1.1);
 }
 
-.ani {
+/* .ani {
   position: relative;
   overflow: hidden;
   transition: 1s all ease;
-}
+} */
 
 .ani::before {
   content: '';
@@ -625,11 +637,11 @@ button:hover{
   overflow: hidden;
 }
 
-.Nmiddle{
+/* .Nmiddle{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-}
+} */
 
 .ani:hover {
   color: white

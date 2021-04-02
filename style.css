@@ -418,7 +418,7 @@ h1{
     height: 600px;
     margin-left: -70px;
     margin-top: 40px;
-    z-index: -10;
+    z-index: -3;
   }
 
   .reverse{
@@ -436,7 +436,7 @@ h1{
       right: 180px;
       margin-right: 50px;
       margin-left: -200px;
-      z-index: -10;
+      z-index: -3;
   }
 
   .image1{
@@ -636,6 +636,7 @@ button{
   transition: all 0.3s ease-in-out;
   border:3px solid #F0C674;
   color: #F0C674;
+  z-index: 3;
 }
 
 
