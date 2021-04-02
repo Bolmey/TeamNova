@@ -524,12 +524,10 @@ header:not(.header) {
 
 .focus {
   transition: all .3s ease-in-out;
-  opacity: 0.85;
 }
 
 .focus:hover {
   transform: scale(1.05);
-  opacity: 1;
 }
 
 .fade {
