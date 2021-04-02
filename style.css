@@ -647,12 +647,13 @@ ul {
 
 button{
   border-radius: 10px;
-  background-color:transparent;
+  background-color:#F0C674;
   font-weight: 550;
   transition: all 0.3s ease-in-out;
   border:3px solid #F0C674;
   color: #F0C674;
   z-index: 3;
+  color: #2F3E47;
 }
 
 
