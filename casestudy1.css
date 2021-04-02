@@ -603,8 +603,8 @@ button:hover{
 /* .ani {
   position: relative;
   overflow: hidden;
-  transition: 1s all ease; */
-}
+  transition: 1s all ease;
+} */
 
 .ani::before {
   content: '';
