@@ -50,12 +50,16 @@ h1,h2,h3,h4 {
   color: #2F3D47;
 }
 
+#smallboy{
+  margin-left: 20px;
+}
+
 .textBox {
   padding: 0 5%;
 }
 
 .bigboy{
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   text-align: left;
   margin-top: 10px;
 }
@@ -338,6 +342,10 @@ a {
 
   .focus:hover {
     transform: scale(1.1);
+  }
+
+  .bigboy{
+    font-size: 2.25rem;
   }
 
   .middle {
