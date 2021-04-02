@@ -534,12 +534,6 @@ a {
   top: 0;
 }
 
-#rocket{
-  width: 5vw;
-  height: 10vh;
-  position: relative;
-  animation: take-off 1.4s ease-in-out infinite;
-}
 
 ul {
   list-style: none;
